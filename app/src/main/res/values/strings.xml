@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hotel</string>
+
+    <string-array name="price_range">
+        <item>All</item>
+        <item>Below LKR 5000</item>
+        <item>LKR 5000 - 10000</item>
+        <item>LKR 10000 - 15000</item>
+        <item>Above LKR 15000</item>
+    </string-array>
+
+    <string-array name="price_range1">
+        <item>All</item>
+        <item>Below LKR 5000</item>
+        <item>LKR 5000 - 10000</item>
+        <item>LKR 10000 - 15000</item>
+        <item>Above LKR 15000</item>
+    </string-array>
+
+</resources>

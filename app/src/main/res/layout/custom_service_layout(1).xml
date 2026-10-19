@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewServiceID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#009688"
+        android:backgroundTint="#F49A34"
+        android:fontFamily="@font/lexend_bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewServiceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18sp"
+        android:fontFamily="@font/nunito_black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewServiceDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18sp"
+        android:layout_marginRight="18sp"
+        android:fontFamily="@font/nunito_italic"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewServicePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18sp"
+        android:layout_marginRight="18sp"
+        android:fontFamily="@font/nunito_regular"
+        android:textColor="#CE395D"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageViewService"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnAddToService"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#CE395D"
+        android:fontFamily="@font/nunito_black"
+        android:gravity="center"
+        android:text="Book Service"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:icon="@drawable/book_service"
+        app:iconGravity="textStart"
+        app:iconSize="25dp"
+        app:iconTint="@color/white" />
+
+</LinearLayout>

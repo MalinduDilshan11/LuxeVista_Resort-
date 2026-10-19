@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hotel"
+        tools:targetApi="31">
+        <activity
+            android:name=".Promotions"
+            android:exported="false" />
+        <activity
+            android:name=".NearPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".ManageUser"
+            android:exported="true" />
+        <activity
+            android:name=".ViewServiceBook"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceBook"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllService"
+            android:exported="false" />
+        <activity
+            android:name=".RoomBook"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRoomBook"
+            android:exported="false" />
+        <activity
+            android:name=".ManageService"
+            android:exported="true" />
+        <activity
+            android:name=".UserHome"
+            android:exported="true" />
+        <activity
+            android:name=".ViewAllRooms"
+            android:exported="true" />
+        <activity
+            android:name=".ManageRoom"
+            android:exported="true" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="true" />
+        <activity
+            android:name=".UserSign"
+            android:exported="true" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
